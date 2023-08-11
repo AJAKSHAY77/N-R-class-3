@@ -1,0 +1,42 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+    
+}
+
+.img{
+    width: 100px;
+}
+.nav-list ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-list ul li {
+    padding: 10px;
+    font-weight: 900;
+    transition: background-color 2s;
+    transition-timing-function: ease-in;
+
+}
+.nav-list ul li:hover{
+    background-color: black;
+    color:goldenrod;
+}
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+.card img{
+    width: 100%;
+}
+.restlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

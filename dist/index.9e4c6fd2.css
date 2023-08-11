@@ -1,0 +1,44 @@
+.heading {
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.img {
+  width: 100px;
+}
+
+.nav-list ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list ul li {
+  padding: 10px;
+  font-weight: 900;
+  transition: background-color 2s ease-in;
+}
+
+.nav-list ul li:hover {
+  color: #daa520;
+  background-color: #000;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 200px;
+  padding: 5px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.restlist {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
