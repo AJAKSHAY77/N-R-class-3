@@ -11,7 +11,7 @@ import ReactDOM from "react-dom/client"
 
 // this is simple react element
 const head = (
- <h1 id="title" key="h2">
+ <h1 id="title" key="h2">app2.js
     namaste react
  </h1>)
 

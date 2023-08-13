@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"dlekf":[function(require,module,exports) {
+})({"14nVU":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "df3fa7a43a65d5a0";
+module.bundle.HMR_BUNDLE_ID = "072be47ed67ac236";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2934,11 +2934,11 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"eJyV7":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b1e0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"alK4Z":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8fbc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b1e0.prelude(module);
+$parcel$ReactRefreshHelpers$8fbc.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -2947,1225 +2947,48 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-            href: "/",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "img",
-                alt: "Food_villa",
-                src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgV4ITetYVZB2Pzbp_3k-feriyr6obtnk0g&usqp=CAU"
-            }, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 7,
-                columnNumber: 7
-            }, undefined)
-        }, void 0, false, {
-            fileName: "app2.js",
-            lineNumber: 6,
-            columnNumber: 5
-        }, undefined)
-    }, void 0, false);
-_c = Title;
-// const styleobj = {
-//     backgroundColor : "red"
-// }
-const HeaderComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "heading",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 20,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "nav-list",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "app2.js",
-                            lineNumber: 23,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "About us"
-                        }, void 0, false, {
-                            fileName: "app2.js",
-                            lineNumber: 24,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Contact"
-                        }, void 0, false, {
-                            fileName: "app2.js",
-                            lineNumber: 25,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Cart"
-                        }, void 0, false, {
-                            fileName: "app2.js",
-                            lineNumber: 26,
-                            columnNumber: 9
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "app2.js",
-                    lineNumber: 22,
-                    columnNumber: 7
-                }, undefined)
-            }, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 21,
-                columnNumber: 5
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "app2.js",
-        lineNumber: 19,
-        columnNumber: 3
-    }, undefined);
-_c1 = HeaderComponent;
-// const Burger  = {
-//     image :"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/gqw0tko9ewge1fsfr2wi",
-//     name:"Burger King",
-//     cousines:["Burgers","American"],
-//     rating:"4.2"
-// }
+var _headerJs = require("./components/Header.js");
+var _headerJsDefault = parcelHelpers.interopDefault(_headerJs);
+var _bodyJs = require("./components/body.js");
+var _bodyJsDefault = parcelHelpers.interopDefault(_bodyJs);
+var _footerJs = require("./components/Footer.js");
+var _footerJsDefault = parcelHelpers.interopDefault(_footerJs);
 // config driven UI
-const restraulist = [
-    {
-        info: {
-            id: "70068",
-            name: "Domino's Pizza",
-            cloudinaryImageId: "juffeaqtqr7jwoe3h7j8",
-            locality: "Saharanpur Road",
-            areaName: "Majra",
-            costForTwo: "₹300 for two",
-            cuisines: [
-                "Pizzas",
-                "Italian",
-                "Pastas",
-                "Desserts"
-            ],
-            avgRating: 4.1,
-            feeDetails: {
-                restaurantId: "70068",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 2100
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 2100
-            },
-            parentId: "2456",
-            avgRatingString: "4.1",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 35,
-                serviceability: "SERVICEABLE",
-                slaString: "35 mins",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 02:55:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "76% OFF",
-                subHeader: "UPTO ₹100"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/dominos-pizza-saharanpur-road-majra-dehradun-70068",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "546799",
-            name: "Wat-a-Burger! - India ka Burger",
-            cloudinaryImageId: "mvl9tkihegusushbs1gl",
-            locality: "Rajpur Road",
-            areaName: "Rajpur",
-            costForTwo: "₹250 for two",
-            cuisines: [
-                "Burgers",
-                "Fast Food",
-                "Continental",
-                "American",
-                "Beverages",
-                "Desserts"
-            ],
-            avgRating: 3.9,
-            feeDetails: {
-                restaurantId: "546799",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "384458",
-            avgRatingString: "3.9",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 59,
-                lastMileTravel: 8,
-                serviceability: "SERVICEABLE",
-                slaString: "59 mins",
-                lastMileTravelString: "8.0 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 01:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "50% OFF",
-                subHeader: "UPTO ₹100"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/wat-a-burger-india-ka-burger-road-rajpur-dehradun-546799",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "575232",
-            name: "Veg Daawat by Behrouz",
-            cloudinaryImageId: "t3bktvjxundwn00qgauq",
-            locality: "Rajpura Road",
-            areaName: "Hathibarkala",
-            costForTwo: "₹500 for two",
-            cuisines: [
-                "Biryani",
-                "Mughlai",
-                "Lucknowi",
-                "Hyderabadi",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.1,
-            veg: true,
-            feeDetails: {
-                restaurantId: "575232",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "344904",
-            avgRatingString: "4.1",
-            totalRatingsString: "20+",
-            sla: {
-                deliveryTime: 73,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "73 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 03:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "₹100 OFF",
-                subHeader: "ABOVE ₹449",
-                discountTag: "FLAT DEAL"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/veg-daawat-by-behrouz-rajpura-road-hathibarkala-dehradun-575232",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "566491",
-            name: "Faasos Signature Wraps & Rolls",
-            cloudinaryImageId: "c583ca6ce40b426797a78ae2ac91f2ec",
-            locality: "Rajpur Road",
-            areaName: "Rajpur",
-            costForTwo: "₹350 for two",
-            cuisines: [
-                "Fast Food",
-                "Snacks",
-                "North Indian",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 3.9,
-            feeDetails: {
-                restaurantId: "566491",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "340366",
-            avgRatingString: "3.9",
-            totalRatingsString: "50+",
-            sla: {
-                deliveryTime: 73,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "73 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 03:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "₹100 OFF",
-                subHeader: "ABOVE ₹299",
-                discountTag: "FLAT DEAL"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/faasos-signature-wraps-and-rolls-road-rajpur-dehradun-566491",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "365569",
-            name: "Faasos - Wraps & Rolls",
-            cloudinaryImageId: "af33b81798b11deba338e94b7585d348",
-            locality: "Rajpur Road",
-            areaName: "Rajpur",
-            costForTwo: "₹200 for two",
-            cuisines: [
-                "Kebabs",
-                "Fast Food",
-                "Snacks",
-                "North Indian",
-                "American",
-                "Healthy Food",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.1,
-            feeDetails: {
-                restaurantId: "365569",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "21809",
-            avgRatingString: "4.1",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 79,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "79 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 03:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            aggregatedDiscountInfoV2: {},
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/faasos-wraps-and-rolls-road-rajpur-dehradun-365569",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "382177",
-            name: "Brick House Kitchen",
-            cloudinaryImageId: "jnaosopzlxciwtpxpeex",
-            locality: "Sahastradhara Road",
-            areaName: "Chironwali",
-            costForTwo: "₹600 for two",
-            cuisines: [
-                "Chinese",
-                "North Indian",
-                "Continental"
-            ],
-            avgRating: 4.1,
-            feeDetails: {
-                restaurantId: "382177",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "259177",
-            avgRatingString: "4.1",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 59,
-                lastMileTravel: 8.6,
-                serviceability: "SERVICEABLE",
-                slaString: "59 mins",
-                lastMileTravelString: "8.6 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 02:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "60% OFF",
-                subHeader: "UPTO ₹120"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/brick-house-kitchen-sahastradhara-road-chironwali-dehradun-382177",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "365571",
-            name: "Oven Story Pizza",
-            cloudinaryImageId: "ab979bffbd658e74de650a15ca0092a3",
-            locality: "Rajpur Road",
-            areaName: "Rajpur",
-            costForTwo: "₹400 for two",
-            cuisines: [
-                "Pizzas",
-                "Pastas",
-                "Italian",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 3.8,
-            feeDetails: {
-                restaurantId: "365571",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "3534",
-            avgRatingString: "3.8",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 80,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "80 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 03:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "₹125 OFF",
-                subHeader: "ABOVE ₹249",
-                discountTag: "FLAT DEAL"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/oven-story-pizza-road-rajpur-dehradun-365571",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "365574",
-            name: "LunchBox - Meals and Thalis",
-            cloudinaryImageId: "zpfjhtdmeedg8tkkcg9n",
-            locality: "Rajpur Road",
-            areaName: "Rajpur",
-            costForTwo: "₹200 for two",
-            cuisines: [
-                "Biryani",
-                "North Indian",
-                "Punjabi",
-                "Healthy Food",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.1,
-            feeDetails: {
-                restaurantId: "365574",
-                fees: [
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "4925",
-            avgRatingString: "4.1",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 80,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "80 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 03:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "₹100 OFF",
-                subHeader: "ABOVE ₹399",
-                discountTag: "FLAT DEAL"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-road-rajpur-dehradun-365574",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "301702",
-            name: "Barbeque Nation",
-            cloudinaryImageId: "y9cognexebql5fgygvmp",
-            locality: "Rajpur Road",
-            areaName: "Hathibarkala Salwala",
-            costForTwo: "₹600 for two",
-            cuisines: [
-                "North Indian",
-                "Barbecue",
-                "Biryani",
-                "Kebabs",
-                "Mughlai",
-                "Desserts"
-            ],
-            avgRating: 3.8,
-            feeDetails: {
-                restaurantId: "301702",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "2438",
-            avgRatingString: "3.8",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 65,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "65 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 01:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "60% OFF",
-                subHeader: "UPTO ₹120"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/barbeque-nation-rajpur-road-hathibarkala-salwala-dehradun-301702",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "365570",
-            name: "Behrouz Biryani",
-            cloudinaryImageId: "49c27c020e946f8f4fc13fdc9038525c",
-            locality: "Rajpur Road",
-            areaName: "Rajpur",
-            costForTwo: "₹500 for two",
-            cuisines: [
-                "Biryani",
-                "Mughlai",
-                "Lucknowi",
-                "Hyderabadi",
-                "Kebabs",
-                "North Indian",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.2,
-            feeDetails: {
-                restaurantId: "365570",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5700
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5700
-            },
-            parentId: "1803",
-            avgRatingString: "4.2",
-            totalRatingsString: "1K+",
-            sla: {
-                deliveryTime: 80,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "80 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 03:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "50% OFF",
-                subHeader: "UPTO ₹100"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/behrouz-biryani-road-rajpur-dehradun-365570",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "89564",
-            name: "Ubq By Barbeque Nation",
-            cloudinaryImageId: "jtvzici548fquo7ieoch",
-            locality: "Rajpur Road",
-            areaName: "Hathibarkala Salwala",
-            costForTwo: "₹300 for two",
-            cuisines: [
-                "North Indian",
-                "Barbecue",
-                "Biryani",
-                "Kebabs",
-                "Mughlai",
-                "Desserts"
-            ],
-            avgRating: 3.8,
-            feeDetails: {
-                restaurantId: "89564",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "10804",
-            avgRatingString: "3.8",
-            totalRatingsString: "5K+",
-            sla: {
-                deliveryTime: 77,
-                lastMileTravel: 9.1,
-                serviceability: "SERVICEABLE",
-                slaString: "77 mins",
-                lastMileTravelString: "9.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 01:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "50% OFF",
-                subHeader: "UPTO ₹100"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-rajpur-road-hathibarkala-salwala-dehradun-89564",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "333532",
-            name: "Sarovar Portico",
-            cloudinaryImageId: "ojccj2pdugzpcs8wpm5a",
-            locality: "Rajpur Road",
-            areaName: "Rajpur",
-            costForTwo: "₹600 for two",
-            cuisines: [
-                "North Indian",
-                "Asian",
-                "Chinese"
-            ],
-            feeDetails: {
-                restaurantId: "333532",
-                fees: [
-                    {
-                        name: "BASE_DISTANCE",
-                        fee: 5400
-                    },
-                    {
-                        name: "BASE_TIME"
-                    },
-                    {
-                        name: "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                totalFee: 5400
-            },
-            parentId: "11775",
-            avgRatingString: "--",
-            sla: {
-                deliveryTime: 52,
-                lastMileTravel: 9.4,
-                serviceability: "SERVICEABLE",
-                slaString: "52 mins",
-                lastMileTravelString: "9.4 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2023-08-12 04:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            aggregatedDiscountInfoV2: {},
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {}
-        },
-        analytics: {},
-        cta: {
-            link: "https://www.swiggy.com/restaurants/sarovar-portico-road-rajpur-dehradun-333532",
-            type: "WEBLINK"
-        }
-    }
-];
-const Restaurantcard = ({ name, cuisines, cloudinaryImageId, locality })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "card",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId
-            }, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1048,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: name
-            }, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1054,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: cuisines.join(", ")
-            }, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1055,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: locality
-            }, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1056,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "app2.js",
-        lineNumber: 1047,
-        columnNumber: 5
-    }, undefined);
-};
-_c2 = Restaurantcard;
-const Body = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "restlist",
-        children: restraulist.map((el)=>{
-            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurantcard, {
-                ...el.info
-            }, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1063,
-                columnNumber: 14
-            }, undefined);
-        })
-    }, void 0, false, {
-        fileName: "app2.js",
-        lineNumber: 1061,
-        columnNumber: 3
-    }, undefined);
-_c3 = Body;
-const Footer = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "Footer"
-        }, void 0, false, {
-            fileName: "app2.js",
-            lineNumber: 1070,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false);
-};
-_c4 = Footer;
 const Applayout = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponent, {}, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1077,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerJsDefault.default), {}, void 0, false, {
+                fileName: "src/app2.js",
+                lineNumber: 10,
                 columnNumber: 5
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1078,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyJsDefault.default), {}, void 0, false, {
+                fileName: "src/app2.js",
+                lineNumber: 11,
                 columnNumber: 5
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
-                fileName: "app2.js",
-                lineNumber: 1079,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerJsDefault.default), {}, void 0, false, {
+                fileName: "src/app2.js",
+                lineNumber: 12,
                 columnNumber: 5
             }, undefined)
         ]
     }, void 0, true);
-_c5 = Applayout;
+_c = Applayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Applayout, {}, void 0, false, {
-    fileName: "app2.js",
-    lineNumber: 1085,
+    fileName: "src/app2.js",
+    lineNumber: 18,
     columnNumber: 13
 }, undefined));
-var _c, _c1, _c2, _c3, _c4, _c5;
-$RefreshReg$(_c, "Title");
-$RefreshReg$(_c1, "HeaderComponent");
-$RefreshReg$(_c2, "Restaurantcard");
-$RefreshReg$(_c3, "Body");
-$RefreshReg$(_c4, "Footer");
-$RefreshReg$(_c5, "Applayout");
+var _c;
+$RefreshReg$(_c, "Applayout");
 
-  $parcel$ReactRefreshHelpers$b1e0.postlude(module);
+  $parcel$ReactRefreshHelpers$8fbc.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header.js":"hsJbF","./components/body.js":"fxbaO","./components/Footer.js":"8pPOA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -28350,7 +27173,106 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"gkKU3":[function(require,module,exports) {
+},{}],"hsJbF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bfed.prelude(module);
+
+try {
+// title
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            href: "/",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "img",
+                alt: "Food_villa",
+                src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgV4ITetYVZB2Pzbp_3k-feriyr6obtnk0g&usqp=CAU"
+            }, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/components/Header.js",
+            lineNumber: 4,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false);
+_c = Title;
+//header
+const HeaderComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "heading",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 17,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-list",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 20,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "About us"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 21,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 22,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Cart"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 23,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header.js",
+                    lineNumber: 19,
+                    columnNumber: 7
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 18,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header.js",
+        lineNumber: 16,
+        columnNumber: 3
+    }, undefined);
+_c1 = HeaderComponent;
+exports.default = HeaderComponent;
+var _c, _c1;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "HeaderComponent");
+
+  $parcel$ReactRefreshHelpers$bfed.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28518,6 +27440,1223 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}]},["dlekf","1xC6H","eJyV7"], "eJyV7", "parcelRequire4487")
+},{"7422ead32dcc1e6b":"786KC"}],"fxbaO":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3ad2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3ad2.prelude(module);
 
-//# sourceMappingURL=index.3a65d5a0.js.map
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _constants = require("./Constants");
+var _resturantcard = require("./Resturantcard");
+var _resturantcardDefault = parcelHelpers.interopDefault(_resturantcard);
+var _s = $RefreshSig$();
+function filterdata(searchtext, Restaurant) {
+    const filterdata = Restaurant.filter((el)=>el.info.name.includes(searchtext));
+    return filterdata;
+}
+const Body = ()=>{
+    _s();
+    //searchtext is local state variable
+    const [Restaurant, setRestaurant] = (0, _react.useState)((0, _constants.restraulist));
+    const [searchtext, setsearchtext] = (0, _react.useState)(); //use to create local state variable
+    return(//search box
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search-box",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        placeholder: "search",
+                        className: "search-input",
+                        value: searchtext,
+                        onChange: (e)=>{
+                            setsearchtext(e.target.value);
+                        }
+                    }, void 0, false, {
+                        fileName: "src/components/body.js",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "Search-btn",
+                        onClick: ()=>{
+                            //need to filter the data
+                            const data = filterdata(searchtext, Restaurant);
+                            //update the state
+                            setRestaurant(data);
+                        },
+                        children: "Search"
+                    }, void 0, false, {
+                        fileName: "src/components/body.js",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/body.js",
+                lineNumber: 20,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "restlist",
+                children: Restaurant.map((el)=>{
+                    return /*#__PURE__*/ (0, _react.createElement)((0, _resturantcardDefault.default), {
+                        ...el.info,
+                        key: el.info.id,
+                        __source: {
+                            fileName: "src/components/body.js",
+                            lineNumber: 47,
+                            columnNumber: 18
+                        },
+                        __self: undefined
+                    });
+                })
+            }, void 0, false, {
+                fileName: "src/components/body.js",
+                lineNumber: 45,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true));
+};
+_s(Body, "W8cBmCFTwpd4KOnGp+D4sMbu/18=");
+_c = Body;
+exports.default = Body;
+var _c;
+$RefreshReg$(_c, "Body");
+
+  $parcel$ReactRefreshHelpers$3ad2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Constants":"gE2d9","./Resturantcard":"7t4Vw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gE2d9":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "IMG_CDN_URL", ()=>IMG_CDN_URL);
+parcelHelpers.export(exports, "restraulist", ()=>restraulist);
+const IMG_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+const restraulist = [
+    {
+        info: {
+            id: "70068",
+            name: "Domino's Pizza",
+            cloudinaryImageId: "juffeaqtqr7jwoe3h7j8",
+            locality: "Saharanpur Road",
+            areaName: "Majra",
+            costForTwo: "₹300 for two",
+            cuisines: [
+                "Pizzas",
+                "Italian",
+                "Pastas",
+                "Desserts"
+            ],
+            avgRating: 4.1,
+            feeDetails: {
+                restaurantId: "70068",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 2100
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 2100
+            },
+            parentId: "2456",
+            avgRatingString: "4.1",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 35,
+                serviceability: "SERVICEABLE",
+                slaString: "35 mins",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 02:55:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "76% OFF",
+                subHeader: "UPTO ₹100"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/dominos-pizza-saharanpur-road-majra-dehradun-70068",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "546799",
+            name: "Wat-a-Burger! - India ka Burger",
+            cloudinaryImageId: "mvl9tkihegusushbs1gl",
+            locality: "Rajpur Road",
+            areaName: "Rajpur",
+            costForTwo: "₹250 for two",
+            cuisines: [
+                "Burgers",
+                "Fast Food",
+                "Continental",
+                "American",
+                "Beverages",
+                "Desserts"
+            ],
+            avgRating: 3.9,
+            feeDetails: {
+                restaurantId: "546799",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "384458",
+            avgRatingString: "3.9",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 59,
+                lastMileTravel: 8,
+                serviceability: "SERVICEABLE",
+                slaString: "59 mins",
+                lastMileTravelString: "8.0 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 01:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "50% OFF",
+                subHeader: "UPTO ₹100"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/wat-a-burger-india-ka-burger-road-rajpur-dehradun-546799",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "575232",
+            name: "Veg Daawat by Behrouz",
+            cloudinaryImageId: "t3bktvjxundwn00qgauq",
+            locality: "Rajpura Road",
+            areaName: "Hathibarkala",
+            costForTwo: "₹500 for two",
+            cuisines: [
+                "Biryani",
+                "Mughlai",
+                "Lucknowi",
+                "Hyderabadi",
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 4.1,
+            veg: true,
+            feeDetails: {
+                restaurantId: "575232",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "344904",
+            avgRatingString: "4.1",
+            totalRatingsString: "20+",
+            sla: {
+                deliveryTime: 73,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "73 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 03:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "₹100 OFF",
+                subHeader: "ABOVE ₹449",
+                discountTag: "FLAT DEAL"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/veg-daawat-by-behrouz-rajpura-road-hathibarkala-dehradun-575232",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "566491",
+            name: "Faasos Signature Wraps & Rolls",
+            cloudinaryImageId: "c583ca6ce40b426797a78ae2ac91f2ec",
+            locality: "Rajpur Road",
+            areaName: "Rajpur",
+            costForTwo: "₹350 for two",
+            cuisines: [
+                "Fast Food",
+                "Snacks",
+                "North Indian",
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 3.9,
+            feeDetails: {
+                restaurantId: "566491",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "340366",
+            avgRatingString: "3.9",
+            totalRatingsString: "50+",
+            sla: {
+                deliveryTime: 73,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "73 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 03:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "₹100 OFF",
+                subHeader: "ABOVE ₹299",
+                discountTag: "FLAT DEAL"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/faasos-signature-wraps-and-rolls-road-rajpur-dehradun-566491",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "365569",
+            name: "Faasos - Wraps & Rolls",
+            cloudinaryImageId: "af33b81798b11deba338e94b7585d348",
+            locality: "Rajpur Road",
+            areaName: "Rajpur",
+            costForTwo: "₹200 for two",
+            cuisines: [
+                "Kebabs",
+                "Fast Food",
+                "Snacks",
+                "North Indian",
+                "American",
+                "Healthy Food",
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 4.1,
+            feeDetails: {
+                restaurantId: "365569",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "21809",
+            avgRatingString: "4.1",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 79,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "79 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 03:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            aggregatedDiscountInfoV2: {},
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/faasos-wraps-and-rolls-road-rajpur-dehradun-365569",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "382177",
+            name: "Brick House Kitchen",
+            cloudinaryImageId: "jnaosopzlxciwtpxpeex",
+            locality: "Sahastradhara Road",
+            areaName: "Chironwali",
+            costForTwo: "₹600 for two",
+            cuisines: [
+                "Chinese",
+                "North Indian",
+                "Continental"
+            ],
+            avgRating: 4.1,
+            feeDetails: {
+                restaurantId: "382177",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "259177",
+            avgRatingString: "4.1",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 59,
+                lastMileTravel: 8.6,
+                serviceability: "SERVICEABLE",
+                slaString: "59 mins",
+                lastMileTravelString: "8.6 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 02:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "60% OFF",
+                subHeader: "UPTO ₹120"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/brick-house-kitchen-sahastradhara-road-chironwali-dehradun-382177",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "365571",
+            name: "Oven Story Pizza",
+            cloudinaryImageId: "ab979bffbd658e74de650a15ca0092a3",
+            locality: "Rajpur Road",
+            areaName: "Rajpur",
+            costForTwo: "₹400 for two",
+            cuisines: [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 3.8,
+            feeDetails: {
+                restaurantId: "365571",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "3534",
+            avgRatingString: "3.8",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 80,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "80 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 03:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "₹125 OFF",
+                subHeader: "ABOVE ₹249",
+                discountTag: "FLAT DEAL"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/oven-story-pizza-road-rajpur-dehradun-365571",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "365574",
+            name: "LunchBox - Meals and Thalis",
+            cloudinaryImageId: "zpfjhtdmeedg8tkkcg9n",
+            locality: "Rajpur Road",
+            areaName: "Rajpur",
+            costForTwo: "₹200 for two",
+            cuisines: [
+                "Biryani",
+                "North Indian",
+                "Punjabi",
+                "Healthy Food",
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 4.1,
+            feeDetails: {
+                restaurantId: "365574",
+                fees: [
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "4925",
+            avgRatingString: "4.1",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 80,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "80 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 03:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "₹100 OFF",
+                subHeader: "ABOVE ₹399",
+                discountTag: "FLAT DEAL"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-road-rajpur-dehradun-365574",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "301702",
+            name: "Barbeque Nation",
+            cloudinaryImageId: "y9cognexebql5fgygvmp",
+            locality: "Rajpur Road",
+            areaName: "Hathibarkala Salwala",
+            costForTwo: "₹600 for two",
+            cuisines: [
+                "North Indian",
+                "Barbecue",
+                "Biryani",
+                "Kebabs",
+                "Mughlai",
+                "Desserts"
+            ],
+            avgRating: 3.8,
+            feeDetails: {
+                restaurantId: "301702",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "2438",
+            avgRatingString: "3.8",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 65,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "65 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 01:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "60% OFF",
+                subHeader: "UPTO ₹120"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/barbeque-nation-rajpur-road-hathibarkala-salwala-dehradun-301702",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "365570",
+            name: "Behrouz Biryani",
+            cloudinaryImageId: "49c27c020e946f8f4fc13fdc9038525c",
+            locality: "Rajpur Road",
+            areaName: "Rajpur",
+            costForTwo: "₹500 for two",
+            cuisines: [
+                "Biryani",
+                "Mughlai",
+                "Lucknowi",
+                "Hyderabadi",
+                "Kebabs",
+                "North Indian",
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 4.2,
+            feeDetails: {
+                restaurantId: "365570",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5700
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5700
+            },
+            parentId: "1803",
+            avgRatingString: "4.2",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 80,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "80 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 03:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "50% OFF",
+                subHeader: "UPTO ₹100"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/behrouz-biryani-road-rajpur-dehradun-365570",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "89564",
+            name: "Ubq By Barbeque Nation",
+            cloudinaryImageId: "jtvzici548fquo7ieoch",
+            locality: "Rajpur Road",
+            areaName: "Hathibarkala Salwala",
+            costForTwo: "₹300 for two",
+            cuisines: [
+                "North Indian",
+                "Barbecue",
+                "Biryani",
+                "Kebabs",
+                "Mughlai",
+                "Desserts"
+            ],
+            avgRating: 3.8,
+            feeDetails: {
+                restaurantId: "89564",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "10804",
+            avgRatingString: "3.8",
+            totalRatingsString: "5K+",
+            sla: {
+                deliveryTime: 77,
+                lastMileTravel: 9.1,
+                serviceability: "SERVICEABLE",
+                slaString: "77 mins",
+                lastMileTravelString: "9.1 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 01:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "50% OFF",
+                subHeader: "UPTO ₹100"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-rajpur-road-hathibarkala-salwala-dehradun-89564",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "333532",
+            name: "Sarovar Portico",
+            cloudinaryImageId: "ojccj2pdugzpcs8wpm5a",
+            locality: "Rajpur Road",
+            areaName: "Rajpur",
+            costForTwo: "₹600 for two",
+            cuisines: [
+                "North Indian",
+                "Asian",
+                "Chinese"
+            ],
+            feeDetails: {
+                restaurantId: "333532",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 5400
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 5400
+            },
+            parentId: "11775",
+            avgRatingString: "--",
+            sla: {
+                deliveryTime: 52,
+                lastMileTravel: 9.4,
+                serviceability: "SERVICEABLE",
+                slaString: "52 mins",
+                lastMileTravelString: "9.4 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-08-12 04:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            aggregatedDiscountInfoV2: {},
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {},
+        cta: {
+            link: "https://www.swiggy.com/restaurants/sarovar-portico-road-rajpur-dehradun-333532",
+            type: "WEBLINK"
+        }
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7t4Vw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1c2e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1c2e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _constants = require("./Constants");
+const Restaurantcard = ({ name, cuisines, cloudinaryImageId, locality })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: (0, _constants.IMG_CDN_URL) + cloudinaryImageId
+            }, void 0, false, {
+                fileName: "src/components/Resturantcard.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: name
+            }, void 0, false, {
+                fileName: "src/components/Resturantcard.js",
+                lineNumber: 10,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: cuisines.join(", ")
+            }, void 0, false, {
+                fileName: "src/components/Resturantcard.js",
+                lineNumber: 11,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: locality
+            }, void 0, false, {
+                fileName: "src/components/Resturantcard.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Resturantcard.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Restaurantcard;
+exports.default = Restaurantcard;
+var _c;
+$RefreshReg$(_c, "Restaurantcard");
+
+  $parcel$ReactRefreshHelpers$1c2e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./Constants":"gE2d9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8pPOA":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bc7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bc7c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            children: "Footer"
+        }, void 0, false, {
+            fileName: "src/components/Footer.js",
+            lineNumber: 4,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
+};
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$bc7c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["14nVU","1xC6H","alK4Z"], "alK4Z", "parcelRequire4487")
+
+//# sourceMappingURL=index.d67ac236.js.map
